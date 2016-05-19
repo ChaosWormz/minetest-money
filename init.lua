@@ -51,6 +51,7 @@ minetest.register_on_joinplayer(function(player)
 			save_accounts()
 		else
 			accounts[name] = {money = INITIAL_MONEY}
+			save_accounts()
 		end
 	end
 	money.hud_add(name)
