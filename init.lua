@@ -337,15 +337,6 @@ minetest.register_node("money:shop", {
 	end,
 })
 
-minetest.register_craft({
-	output = "money:shop",
-	recipe = {
-		{"default:wood", "default:wood", "default:wood"},
-		{"default:wood", "default:mese", "default:wood"},
-		{"default:wood", "default:wood", "default:wood"},
-	},
-})
-
 --Admin shop.
 minetest.register_node("money:admin_shop", {
 	description = "Admin Shop",
